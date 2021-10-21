@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="asking for a fee">ef8ec3b92fd730104de2f64ef699b696</sc_cat_item>
+        <sc_category display_value="Privacy Requests">afaa9f56b792230030ab8347ee11a92c</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-20 14:27:49</sys_created_on>
+        <sys_id>7b8e4fbd2fd730104de2f64ef699b61f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Privacy Requests.asking for a fee</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sc_cat_item_category_7b8e4fbd2fd730104de2f64ef699b61f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-20 14:27:49</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>9bf8d275dbb5320452e3f70fbf961906</instance_id>
+        <instance_name>dev33590</instance_name>
+        <name>sc_cat_item_category_7b8e4fbd2fd730104de2f64ef699b61f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="asking for a fee">ef8ec3b92fd730104de2f64ef699b696</sc_cat_item><sc_category display_value="Privacy Requests">afaa9f56b792230030ab8347ee11a92c</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-10-20 14:27:49</sys_created_on><sys_id>7b8e4fbd2fd730104de2f64ef699b61f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Privacy Requests.asking for a fee</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sc_cat_item_category_7b8e4fbd2fd730104de2f64ef699b61f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-10-20 14:27:49</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>1899177061</payload_hash>
+        <record_name>Privacy Requests.asking for a fee</record_name>
+        <reverted_from/>
+        <source>3c9ef56c2f9730104de2f64ef699b634</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-20 14:27:49</sys_created_on>
+        <sys_id>fb8e4fbd2fd730104de2f64ef699b623</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c9e19e4b30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-20 14:27:49</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>378e4fbd5ed7301026f4dd1f43ac7223</update_guid>
+        <update_guid_history>378e4fbd5ed7301026f4dd1f43ac7223:1899177061</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Privacy Requests.asking for a fee">76ee43fd2fd730104de2f64ef699b6fd</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-20 14:29:23</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>0ddca85e25744ee4a1e4c8c0c5fca481</sys_id>
+        <sys_metadata>7b8e4fbd2fd730104de2f64ef699b61f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Privacy Requests.asking for a fee</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_7b8e4fbd2fd730104de2f64ef699b61f</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_7b8e4fbd2fd730104de2f64ef699b61f">fb8e4fbd2fd730104de2f64ef699b623</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-20 14:29:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

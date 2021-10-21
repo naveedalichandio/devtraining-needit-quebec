@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_soap_message_function">
+    <sys_soap_message_function action="INSERT_OR_UPDATE">
+        <authentication_type>basic</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile display_value="new test">2f5303752fd730104de2f64ef699b6b8</basic_auth_profile>
+        <basic_auth_user/>
+        <certificate/>
+        <enable_mutual_auth>false</enable_mutual_auth>
+        <envelope><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:sn="http://www.service-now.com/sn_hr_core_demo_destination_application">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <sn:insert>
+		   <u_short_description>${insert.u_short_description}</u_short_description>
+		  <u_caller_id>${insert.u_caller_id}</u_caller_id>
+		  <u_number>${insert.u_number}</u_number>
+		   <u_incident_state>${insert.u_incident_state}</u_incident_state>
+		    <u_active>${insert.u_active}</u_active>
+      </sn:insert>
+   </soapenv:Body>
+</soapenv:Envelope>]]></envelope>
+        <function_name>insert</function_name>
+        <key_store/>
+        <key_store_alias/>
+        <key_store_password/>
+        <lock>false</lock>
+        <protocol_profile/>
+        <qualified_name>outbound [ insert ]</qualified_name>
+        <soap_action>http://www.service-now.com/sn_hr_core_demo_destination_application/insert</soap_action>
+        <soap_endpoint>https://dev84592.service-now.com/sn_hr_core_demo_destination_application.do?SOAP</soap_endpoint>
+        <soap_message display_value="outbound">2cd24b352fd730104de2f64ef699b69b</soap_message>
+        <strip_whitespace>false</strip_whitespace>
+        <sys_class_name>sys_soap_message_function</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-20 13:40:05</sys_created_on>
+        <sys_id>68a307752fd730104de2f64ef699b656</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>insert</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_soap_message_function_68a307752fd730104de2f64ef699b656</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-20 13:49:41</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_ws_security>false</use_ws_security>
+        <ws_security_type/>
+        <ws_security_username_profile/>
+        <ws_security_x509_profile/>
+    </sys_soap_message_function>
+</record_update>
